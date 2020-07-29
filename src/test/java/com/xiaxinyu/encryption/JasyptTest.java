@@ -39,7 +39,7 @@ public class JasyptTest {
 
     @Test
     public void testDecrypt() {
-        String encryption = "hp6LOf8rCIKr8lPjZGFwXXkpRJN5PRfVh2Do2D3Bht5+5/BjC8feBvU4Ia2f4a3h";
+        String encryption = "hDcZ4y6AB6bWWwe2i5vPimyCfEVs00ooUUkB3OT6bzvXQtF8oKNLAnGvoQOJWdKb";
         String key = this.encryptor.decrypt(encryption);
 
         Map<String, String> map = new HashMap();
